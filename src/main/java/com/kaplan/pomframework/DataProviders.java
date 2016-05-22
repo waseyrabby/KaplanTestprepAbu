@@ -18,8 +18,8 @@ public class DataProviders {
         Object[][]data;
         data =  new Object[][]{
                 { "kaplantestabu@gmail.com","9083277874","Aam" },
-                { "kaplantestabu@gmail.com","9083277874","Aam"},
                 { "kaplantestabu@gmail.com","9083277874","Aam"}
+              
     };
         return data;
     }

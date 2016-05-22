@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="0" name="TestSuite" time="60.137" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="TestSuite" time="23.57" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib"/>
@@ -62,19 +62,10 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.kaplan.Test.GmailLoginTest" name="Homepage" time="1.057"/>
-  <testcase classname="com.kaplan.Test.GmailLoginTest" name="Login" time="6.287"/>
-  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testarray" time="3.889"/>
-  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testarray" time="4.324"/>
-  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testarray" time="3.921"/>
-  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testexel" time="3.886"/>
-  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testexel" time="4.075"/>
-  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testexel" time="3.897"/>
-  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testexel" time="4.008"/>
-  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testexel" time="4.125"/>
-  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testexel" time="4.404"/>
-  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testexel" time="3.643"/>
-  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testexel" time="3.661"/>
-  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testexel" time="3.691"/>
-  <testcase classname="com.kaplan.Test.VerifyTest" name="Verifyemail" time="5.269"/>
+  <testcase classname="com.kaplan.Test.GmailLoginTest" name="Homepage" time="0.864"/>
+  <testcase classname="com.kaplan.Test.GmailLoginTest" name="Login" time="5.603"/>
+  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testarray" time="3.904"/>
+  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testarray" time="3.689"/>
+  <testcase classname="com.kaplan.Test.ParameterizeTest" name="testexel" time="4.147"/>
+  <testcase classname="com.kaplan.Test.VerifyTest" name="Verifyemail" time="5.363"/>
 </testsuite>

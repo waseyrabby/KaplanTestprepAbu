@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14081" started-at="2016-05-22T17:32:49Z" finished-at="2016-05-22T17:33:03Z">
+  <suite name="Default suite" duration-ms="11487" started-at="2016-05-22T18:22:09Z" finished-at="2016-05-22T18:22:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14081" started-at="2016-05-22T17:32:49Z" finished-at="2016-05-22T17:33:03Z">
+    <test name="Default test" duration-ms="11487" started-at="2016-05-22T18:22:09Z" finished-at="2016-05-22T18:22:21Z">
       <class name="com.kaplan.Test.GmailLoginTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="before" is-config="true" duration-ms="2429" started-at="2016-05-22T13:32:49Z" finished-at="2016-05-22T13:32:51Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="before" is-config="true" duration-ms="2464" started-at="2016-05-22T14:22:09Z" finished-at="2016-05-22T14:22:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="Homepage()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="Homepage" duration-ms="1969" started-at="2016-05-22T13:32:51Z" finished-at="2016-05-22T13:32:53Z">
+        <test-method status="PASS" signature="Homepage()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="Homepage" duration-ms="1067" started-at="2016-05-22T14:22:12Z" finished-at="2016-05-22T14:22:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Homepage -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="afterMethods" is-config="true" duration-ms="76" started-at="2016-05-22T13:32:53Z" finished-at="2016-05-22T13:32:53Z">
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="afterMethods" is-config="true" duration-ms="73" started-at="2016-05-22T14:22:13Z" finished-at="2016-05-22T14:22:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="before" is-config="true" duration-ms="1985" started-at="2016-05-22T13:32:53Z" finished-at="2016-05-22T13:32:55Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="before" is-config="true" duration-ms="1959" started-at="2016-05-22T14:22:13Z" finished-at="2016-05-22T14:22:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="Login" duration-ms="7473" started-at="2016-05-22T13:32:55Z" finished-at="2016-05-22T13:33:03Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="Login" duration-ms="5792" started-at="2016-05-22T14:22:15Z" finished-at="2016-05-22T14:22:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="afterMethods" is-config="true" duration-ms="136" started-at="2016-05-22T13:33:03Z" finished-at="2016-05-22T13:33:03Z">
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="afterMethods" is-config="true" duration-ms="120" started-at="2016-05-22T14:22:21Z" finished-at="2016-05-22T14:22:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethods -->

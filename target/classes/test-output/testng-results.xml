@@ -1,361 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="12" passed="12">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="70711" started-at="2016-05-22T07:20:38Z" finished-at="2016-05-22T07:21:48Z">
+  <suite name="Default suite" duration-ms="14081" started-at="2016-05-22T17:32:49Z" finished-at="2016-05-22T17:33:03Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="70711" started-at="2016-05-22T07:20:38Z" finished-at="2016-05-22T07:21:48Z">
-      <class name="com.kaplan.Test.ParameterizeTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="2003" started-at="2016-05-22T03:20:38Z" finished-at="2016-05-22T03:20:40Z">
+    <test name="Default test" duration-ms="14081" started-at="2016-05-22T17:32:49Z" finished-at="2016-05-22T17:33:03Z">
+      <class name="com.kaplan.Test.GmailLoginTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="before" is-config="true" duration-ms="2429" started-at="2016-05-22T13:32:49Z" finished-at="2016-05-22T13:32:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="testarray(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testarray" duration-ms="3876" started-at="2016-05-22T03:20:40Z" description="This is a data provider test" data-provider="dataAsArray" finished-at="2016-05-22T03:20:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaplantestabu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9083277874]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aam]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="Homepage()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="Homepage" duration-ms="1969" started-at="2016-05-22T13:32:51Z" finished-at="2016-05-22T13:32:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testarray -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="128" started-at="2016-05-22T03:20:43Z" finished-at="2016-05-22T03:20:44Z">
+        </test-method> <!-- Homepage -->
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="afterMethods" is-config="true" duration-ms="76" started-at="2016-05-22T13:32:53Z" finished-at="2016-05-22T13:32:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="1996" started-at="2016-05-22T03:20:44Z" finished-at="2016-05-22T03:20:46Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="before" is-config="true" duration-ms="1985" started-at="2016-05-22T13:32:53Z" finished-at="2016-05-22T13:32:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="testarray(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testarray" duration-ms="3632" started-at="2016-05-22T03:20:46Z" description="This is a data provider test" data-provider="dataAsArray" finished-at="2016-05-22T03:20:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaplantestabu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9083277874]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aam]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="Login" duration-ms="7473" started-at="2016-05-22T13:32:55Z" finished-at="2016-05-22T13:33:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testarray -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="139" started-at="2016-05-22T03:20:49Z" finished-at="2016-05-22T03:20:49Z">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="afterMethods" is-config="true" duration-ms="136" started-at="2016-05-22T13:33:03Z" finished-at="2016-05-22T13:33:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="1978" started-at="2016-05-22T03:20:49Z" finished-at="2016-05-22T03:20:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testarray(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testarray" duration-ms="3576" started-at="2016-05-22T03:20:51Z" description="This is a data provider test" data-provider="dataAsArray" finished-at="2016-05-22T03:20:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaplantestabu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9083277874]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aam]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testarray -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="126" started-at="2016-05-22T03:20:55Z" finished-at="2016-05-22T03:20:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="2005" started-at="2016-05-22T03:20:55Z" finished-at="2016-05-22T03:20:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testexel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testexel" duration-ms="3626" started-at="2016-05-22T03:20:57Z" description="This is a data provider test" data-provider="dataAsExcel" finished-at="2016-05-22T03:21:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaplantestabu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9083277874]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aam]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testexel -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="131" started-at="2016-05-22T03:21:01Z" finished-at="2016-05-22T03:21:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="1959" started-at="2016-05-22T03:21:01Z" finished-at="2016-05-22T03:21:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testexel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testexel" duration-ms="3743" started-at="2016-05-22T03:21:03Z" description="This is a data provider test" data-provider="dataAsExcel" finished-at="2016-05-22T03:21:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaplantestabu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9083277874]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aam]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testexel -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="137" started-at="2016-05-22T03:21:07Z" finished-at="2016-05-22T03:21:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="2020" started-at="2016-05-22T03:21:07Z" finished-at="2016-05-22T03:21:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testexel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testexel" duration-ms="4014" started-at="2016-05-22T03:21:09Z" description="This is a data provider test" data-provider="dataAsExcel" finished-at="2016-05-22T03:21:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaplantestabu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9083277874]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aam]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testexel -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="84" started-at="2016-05-22T03:21:13Z" finished-at="2016-05-22T03:21:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="1988" started-at="2016-05-22T03:21:13Z" finished-at="2016-05-22T03:21:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testexel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testexel" duration-ms="3575" started-at="2016-05-22T03:21:15Z" description="This is a data provider test" data-provider="dataAsExcel" finished-at="2016-05-22T03:21:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaplantestabu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9083277874]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aam]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testexel -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="124" started-at="2016-05-22T03:21:18Z" finished-at="2016-05-22T03:21:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="2461" started-at="2016-05-22T03:21:18Z" finished-at="2016-05-22T03:21:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testexel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testexel" duration-ms="3499" started-at="2016-05-22T03:21:21Z" description="This is a data provider test" data-provider="dataAsExcel" finished-at="2016-05-22T03:21:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaplantestabu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9083277874]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aam]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testexel -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="125" started-at="2016-05-22T03:21:24Z" finished-at="2016-05-22T03:21:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="1950" started-at="2016-05-22T03:21:25Z" finished-at="2016-05-22T03:21:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testexel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testexel" duration-ms="3662" started-at="2016-05-22T03:21:27Z" description="This is a data provider test" data-provider="dataAsExcel" finished-at="2016-05-22T03:21:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaplantestabu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9083277874]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aam]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testexel -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="129" started-at="2016-05-22T03:21:30Z" finished-at="2016-05-22T03:21:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="2026" started-at="2016-05-22T03:21:30Z" finished-at="2016-05-22T03:21:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testexel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testexel" duration-ms="3589" started-at="2016-05-22T03:21:32Z" description="This is a data provider test" data-provider="dataAsExcel" finished-at="2016-05-22T03:21:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaplantestabu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9083277874]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aam]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testexel -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="232" started-at="2016-05-22T03:21:36Z" finished-at="2016-05-22T03:21:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="1998" started-at="2016-05-22T03:21:36Z" finished-at="2016-05-22T03:21:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testexel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testexel" duration-ms="3975" started-at="2016-05-22T03:21:38Z" description="This is a data provider test" data-provider="dataAsExcel" finished-at="2016-05-22T03:21:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaplantestabu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9083277874]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aam]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testexel -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="251" started-at="2016-05-22T03:21:42Z" finished-at="2016-05-22T03:21:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="1977" started-at="2016-05-22T03:21:42Z" finished-at="2016-05-22T03:21:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testexel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testexel" duration-ms="3752" started-at="2016-05-22T03:21:44Z" description="This is a data provider test" data-provider="dataAsExcel" finished-at="2016-05-22T03:21:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaplantestabu@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9083277874]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aam]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testexel -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="122" started-at="2016-05-22T03:21:48Z" finished-at="2016-05-22T03:21:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-      </class> <!-- com.kaplan.Test.ParameterizeTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+      </class> <!-- com.kaplan.Test.GmailLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
