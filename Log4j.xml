@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+  <appender name="console" class="org.apache.log4j.ConsoleAppender"> 
+    <param name="Target" value="System.out"/> 
+    <layout class="org.apache.log4j.PatternLayout"> 
+      <param name="ConversionPattern" value="%-5p %c{1} - %m%n"/> 
+    </layout>
+    <appender name="emailAppender" class="org.apache.log4j.net.SMTPAppender">
+02
+    <param name="BufferSize" value="587" />
+03
+    <param name="SMTPHost" value="smtp.gmail.com" />
+04
+    <param name="From" value="waseyrabby@gmail.com" />
+05
+    <param name="To" value="waseyrabby@btinternet.com" />
+06
+    <param name="Subject" value="Log4J XML Configuration " />
+07
+    <layout class="org.apache.log4j.PatternLayout">
+08
+        <param name="ConversionPattern" value="[%t] %-5p %c - %m%n" />
+09
+    </layout>
+10
+    <filter class="org.apache.log4j.varia.LevelRangeFilter">
+11
+        <param name="LevelMin" value="WARN" />
+12
+        <param name="LevelMax" value="FATAL" />
+13
+    </filter>
+14
+</appender>
+     
+  </appender> 
+
+  <root> 
+    <priority value ="debug" /> 
+    <appender-ref ref="console" /> 
+  </root>
+
+</log4j:configuration>

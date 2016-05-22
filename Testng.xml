@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Command line suite">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.kaplan.Test.GmailLoginTest"/>
+      <class name="com.kaplan.Test.ParameterizeTest"/>
+      <class name="com.kaplan.Test.VerifyTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+</suite> <!-- Command line suite -->
+            
