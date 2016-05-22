@@ -6,4 +6,15 @@
       <class name="com.kaplan.Test.GmailLoginTest"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.kaplan.Test.GmailLoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="Login"/>
+          <include name="Homepage"/>
+        </methods>
+      </class> <!-- com.kaplan.Test.GmailLoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

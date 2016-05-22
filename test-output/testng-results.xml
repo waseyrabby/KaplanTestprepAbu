@@ -1,33 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11487" started-at="2016-05-22T18:22:09Z" finished-at="2016-05-22T18:22:21Z">
+  <suite name="Default suite" duration-ms="59806" started-at="2016-05-22T21:54:11Z" finished-at="2016-05-22T21:55:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11487" started-at="2016-05-22T18:22:09Z" finished-at="2016-05-22T18:22:21Z">
-      <class name="com.kaplan.Test.GmailLoginTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="before" is-config="true" duration-ms="2464" started-at="2016-05-22T14:22:09Z" finished-at="2016-05-22T14:22:12Z">
+    <test name="Default test" duration-ms="59806" started-at="2016-05-22T21:54:11Z" finished-at="2016-05-22T21:55:11Z">
+      <class name="com.kaplan.Test.ParameterizeTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="before" is-config="true" duration-ms="1970" started-at="2016-05-22T17:54:45Z" finished-at="2016-05-22T17:54:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="Homepage()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="Homepage" duration-ms="1067" started-at="2016-05-22T14:22:12Z" finished-at="2016-05-22T14:22:13Z">
+        <test-method status="PASS" signature="testarray(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="testarray" duration-ms="7744" started-at="2016-05-22T17:54:47Z" description="This is a data provider test" data-provider="dataAsArray" finished-at="2016-05-22T17:54:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kaplantestabu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9083277874]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aam]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Homepage -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="afterMethods" is-config="true" duration-ms="73" started-at="2016-05-22T14:22:13Z" finished-at="2016-05-22T14:22:13Z">
+        </test-method> <!-- testarray -->
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="afterMethods" is-config="true" duration-ms="79" started-at="2016-05-22T17:54:55Z" finished-at="2016-05-22T17:54:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="before" is-config="true" duration-ms="1959" started-at="2016-05-22T14:22:13Z" finished-at="2016-05-22T14:22:15Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="before" is-config="true" duration-ms="1984" started-at="2016-05-22T17:54:55Z" finished-at="2016-05-22T17:54:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="Login" duration-ms="5792" started-at="2016-05-22T14:22:15Z" finished-at="2016-05-22T14:22:21Z">
+        <test-method status="PASS" signature="testarray(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="testarray" duration-ms="6165" started-at="2016-05-22T17:54:57Z" description="This is a data provider test" data-provider="dataAsArray" finished-at="2016-05-22T17:55:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kaplantestabu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9083277874]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testarray -->
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="afterMethods" is-config="true" duration-ms="131" started-at="2016-05-22T17:55:03Z" finished-at="2016-05-22T17:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="before" is-config="true" duration-ms="1936" started-at="2016-05-22T17:55:03Z" finished-at="2016-05-22T17:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="testexel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="testexel" duration-ms="5482" started-at="2016-05-22T17:55:05Z" description="This is a data provider test" data-provider="dataAsExcel" finished-at="2016-05-22T17:55:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kaplantestabu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9083277874]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexel -->
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="afterMethods" is-config="true" duration-ms="125" started-at="2016-05-22T17:55:11Z" finished-at="2016-05-22T17:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+      </class> <!-- com.kaplan.Test.ParameterizeTest -->
+      <class name="com.kaplan.Test.VerifyTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.VerifyTest@2d928643]" name="before" is-config="true" duration-ms="2899" started-at="2016-05-22T17:54:11Z" finished-at="2016-05-22T17:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="Verifyemail()[pri:0, instance:com.kaplan.Test.VerifyTest@2d928643]" name="Verifyemail" duration-ms="14839" started-at="2016-05-22T17:54:14Z" finished-at="2016-05-22T17:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyemail -->
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.VerifyTest@2d928643]" name="afterMethods" is-config="true" duration-ms="136" started-at="2016-05-22T17:54:29Z" finished-at="2016-05-22T17:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+      </class> <!-- com.kaplan.Test.VerifyTest -->
+      <class name="com.kaplan.Test.GmailLoginTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.GmailLoginTest@5025a98f]" name="before" is-config="true" duration-ms="2408" started-at="2016-05-22T17:54:29Z" finished-at="2016-05-22T17:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="Homepage()[pri:0, instance:com.kaplan.Test.GmailLoginTest@5025a98f]" name="Homepage" duration-ms="1236" started-at="2016-05-22T17:54:31Z" finished-at="2016-05-22T17:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.GmailLoginTest@5025a98f]" name="afterMethods" is-config="true" duration-ms="71" started-at="2016-05-22T17:54:33Z" finished-at="2016-05-22T17:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.GmailLoginTest@5025a98f]" name="before" is-config="true" duration-ms="1939" started-at="2016-05-22T17:54:33Z" finished-at="2016-05-22T17:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.kaplan.Test.GmailLoginTest@5025a98f]" name="Login" duration-ms="10389" started-at="2016-05-22T17:54:35Z" finished-at="2016-05-22T17:54:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.GmailLoginTest@42dafa95]" name="afterMethods" is-config="true" duration-ms="120" started-at="2016-05-22T14:22:21Z" finished-at="2016-05-22T14:22:21Z">
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.GmailLoginTest@5025a98f]" name="afterMethods" is-config="true" duration-ms="136" started-at="2016-05-22T17:54:45Z" finished-at="2016-05-22T17:54:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethods -->

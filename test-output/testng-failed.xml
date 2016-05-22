@@ -3,7 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
+      <class name="com.kaplan.pages.Pagebase"/>
+      <class name="com.kaplan.pomframework.ApplicationController"/>
+      <class name="com.kaplan.Test.VerifyTest"/>
+      <class name="com.kaplan.pages.Varification"/>
+      <class name="com.kaplan.pomframework.Retry"/>
       <class name="com.kaplan.Test.GmailLoginTest"/>
+      <class name="com.kaplan.pomframework.DataProviders"/>
+      <class name="com.kaplan.pomframework.Gmailscriptbase"/>
+      <class name="com.kaplan.Test.ParameterizeTest"/>
+      <class name="com.kaplan.pages.HomePage"/>
+      <class name="com.kaplan.pomframework.ScriptBase"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -17,18 +17,18 @@ public Varification(WebDriver driver)
 
 public void verifyemail() throws Exception {
 	
-	List<WebElement> email = driver.findElements(By.cssSelector("div.xT>div.y6>span>b"));
+	List<WebElement> email = driver.findElements(By.xpath(".//*[@id=':3b']/tbody"));
 	
 	for(WebElement emailsub : email)
            {
-	    if(emailsub.getText().equals("gmail") == true)
+	    if(emailsub.getText().equals("Congratulation") == true)
 	       {
 	           emailsub.click();
 	           break;
 	        }
 	    else
 	    {
-	    	System.out.println("No email Whith  Keyword:- gmail");
+	    	System.out.println("No email Whith  Keyword:- Congratulation");
 	   
 	    }} }}
 

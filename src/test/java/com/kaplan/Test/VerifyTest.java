@@ -10,6 +10,7 @@ public class VerifyTest extends Gmailscriptbase{
 
 	 @Test
 	    public void Verifyemail() throws Exception{
+		 gmail().HP().printMethod();
 		 gmail().HP().navigateTo();
 		 gmail().HP().inputemail();
 		 gmail().HP().clicknext();

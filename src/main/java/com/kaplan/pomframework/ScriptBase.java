@@ -8,6 +8,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+
+
+
 public class ScriptBase {
 
 	 protected WebDriver driver ;
@@ -22,9 +25,11 @@ public class ScriptBase {
 	        driver.manage().window().maximize();
 
 	    }
-	 
+	   
+	    
 	    @AfterMethod
-	    public void afterMethods()
+	    
+	    public void afterMethods() 
 	    {
 	        driver.close();
 	        driver.quit();

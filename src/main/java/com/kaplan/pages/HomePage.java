@@ -7,9 +7,9 @@ import org.testng.Assert;
 
 public class HomePage extends Pagebase {
 protected static final String GMAILLINK = "http://gmail.com";
-protected static final String mail= "kaplantestabu@gmail.com";
-protected static final String pass= "9083277874";
-protected static String New;
+protected static final String MAIL= "kaplantestabu@gmail.com";
+protected static final String PASS= "9083277874";
+protected static String NEW;
 protected WebElement email;
 protected WebElement next;
 protected WebElement password;
@@ -46,7 +46,7 @@ public void verifyPageTitle()
 	{
 		email=driver.findElement(By.id("Email"));
 		 highlight(email);
-		email.sendKeys(mail);
+		email.sendKeys(MAIL);
 		
 	}
 	public void clicknext(){
@@ -59,7 +59,7 @@ public void verifyPageTitle()
 	public void inputpassword(){
 		password=driver.findElement(By.id("Passwd"));
 		 highlight(password);
-		password.sendKeys(pass);
+		password.sendKeys(PASS);
 		
 	}
 	public void signin()
@@ -72,9 +72,9 @@ public void verifyPageTitle()
 	
 	{
 		inbox=driver.findElement(By.cssSelector(".J-Ke.n0"));
-		New= inbox.getText();
+		NEW= inbox.getText();
 		
-	  System.out.println("Number of imail in inbox is ="+New);
+	  System.out.println("Number of imail in inbox is ="+NEW);
 		
 	}
    
