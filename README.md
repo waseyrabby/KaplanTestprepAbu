@@ -1,5 +1,5 @@
 # KaplanTestprepAbu
-As advised Created a Page Object model Framework Useing Java,Selenium,Testng and Mavan as build tool on Gmail email account.
+Created a Page Object model Framework Useing Java,Selenium,Testng and Mavan as build tool on Gmail email account.
 
 
 TEST WEBSITE:- http://gmail.com
