@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59806" started-at="2016-05-22T21:54:11Z" finished-at="2016-05-22T21:55:11Z">
+  <suite name="Command line suite" duration-ms="27532" started-at="2016-05-23T01:38:16Z" finished-at="2016-05-23T01:38:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59806" started-at="2016-05-22T21:54:11Z" finished-at="2016-05-22T21:55:11Z">
+    <test name="Command line test" duration-ms="27532" started-at="2016-05-23T01:38:16Z" finished-at="2016-05-23T01:38:43Z">
       <class name="com.kaplan.Test.ParameterizeTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="before" is-config="true" duration-ms="1970" started-at="2016-05-22T17:54:45Z" finished-at="2016-05-22T17:54:47Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="1992" started-at="2016-05-22T21:38:16Z" finished-at="2016-05-22T21:38:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="testarray(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="testarray" duration-ms="7744" started-at="2016-05-22T17:54:47Z" description="This is a data provider test" data-provider="dataAsArray" finished-at="2016-05-22T17:54:55Z">
+        <test-method status="PASS" signature="testarray(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testarray" duration-ms="8925" started-at="2016-05-22T21:38:18Z" description="This is a data provider test" data-provider="dataAsArray" finished-at="2016-05-22T21:38:27Z">
           <params>
             <param index="0">
               <value>
@@ -32,15 +32,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testarray -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="afterMethods" is-config="true" duration-ms="79" started-at="2016-05-22T17:54:55Z" finished-at="2016-05-22T17:54:55Z">
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="136" started-at="2016-05-22T21:38:27Z" finished-at="2016-05-22T21:38:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="before" is-config="true" duration-ms="1984" started-at="2016-05-22T17:54:55Z" finished-at="2016-05-22T17:54:57Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="1986" started-at="2016-05-22T21:38:27Z" finished-at="2016-05-22T21:38:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="testarray(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="testarray" duration-ms="6165" started-at="2016-05-22T17:54:57Z" description="This is a data provider test" data-provider="dataAsArray" finished-at="2016-05-22T17:55:03Z">
+        <test-method status="PASS" signature="testarray(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testarray" duration-ms="6616" started-at="2016-05-22T21:38:29Z" description="This is a data provider test" data-provider="dataAsArray" finished-at="2016-05-22T21:38:35Z">
           <params>
             <param index="0">
               <value>
@@ -61,15 +61,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testarray -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="afterMethods" is-config="true" duration-ms="131" started-at="2016-05-22T17:55:03Z" finished-at="2016-05-22T17:55:03Z">
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="131" started-at="2016-05-22T21:38:35Z" finished-at="2016-05-22T21:38:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="before" is-config="true" duration-ms="1936" started-at="2016-05-22T17:55:03Z" finished-at="2016-05-22T17:55:05Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="before" is-config="true" duration-ms="1998" started-at="2016-05-22T21:38:35Z" finished-at="2016-05-22T21:38:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="testexel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="testexel" duration-ms="5482" started-at="2016-05-22T17:55:05Z" description="This is a data provider test" data-provider="dataAsExcel" finished-at="2016-05-22T17:55:11Z">
+        <test-method status="PASS" signature="testexel(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="testexel" duration-ms="5523" started-at="2016-05-22T21:38:37Z" description="This is a data provider test" data-provider="dataAsExcel" finished-at="2016-05-22T21:38:43Z">
           <params>
             <param index="0">
               <value>
@@ -90,51 +90,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testexel -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@49993335]" name="afterMethods" is-config="true" duration-ms="125" started-at="2016-05-22T17:55:11Z" finished-at="2016-05-22T17:55:11Z">
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.ParameterizeTest@6ea2bc93]" name="afterMethods" is-config="true" duration-ms="127" started-at="2016-05-22T21:38:43Z" finished-at="2016-05-22T21:38:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethods -->
       </class> <!-- com.kaplan.Test.ParameterizeTest -->
-      <class name="com.kaplan.Test.VerifyTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.VerifyTest@2d928643]" name="before" is-config="true" duration-ms="2899" started-at="2016-05-22T17:54:11Z" finished-at="2016-05-22T17:54:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="Verifyemail()[pri:0, instance:com.kaplan.Test.VerifyTest@2d928643]" name="Verifyemail" duration-ms="14839" started-at="2016-05-22T17:54:14Z" finished-at="2016-05-22T17:54:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verifyemail -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.VerifyTest@2d928643]" name="afterMethods" is-config="true" duration-ms="136" started-at="2016-05-22T17:54:29Z" finished-at="2016-05-22T17:54:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-      </class> <!-- com.kaplan.Test.VerifyTest -->
-      <class name="com.kaplan.Test.GmailLoginTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.GmailLoginTest@5025a98f]" name="before" is-config="true" duration-ms="2408" started-at="2016-05-22T17:54:29Z" finished-at="2016-05-22T17:54:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="Homepage()[pri:0, instance:com.kaplan.Test.GmailLoginTest@5025a98f]" name="Homepage" duration-ms="1236" started-at="2016-05-22T17:54:31Z" finished-at="2016-05-22T17:54:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Homepage -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.GmailLoginTest@5025a98f]" name="afterMethods" is-config="true" duration-ms="71" started-at="2016-05-22T17:54:33Z" finished-at="2016-05-22T17:54:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-        <test-method status="PASS" signature="before()[pri:0, instance:com.kaplan.Test.GmailLoginTest@5025a98f]" name="before" is-config="true" duration-ms="1939" started-at="2016-05-22T17:54:33Z" finished-at="2016-05-22T17:54:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.kaplan.Test.GmailLoginTest@5025a98f]" name="Login" duration-ms="10389" started-at="2016-05-22T17:54:35Z" finished-at="2016-05-22T17:54:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.kaplan.Test.GmailLoginTest@5025a98f]" name="afterMethods" is-config="true" duration-ms="136" started-at="2016-05-22T17:54:45Z" finished-at="2016-05-22T17:54:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethods -->
-      </class> <!-- com.kaplan.Test.GmailLoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
 </testng-results>

@@ -21,11 +21,7 @@
             <artifactId>testng</artifactId>
             <version>6.9.10</version>
         </dependency>
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-testng</artifactId>
-            <version>1.2.4</version>
-        </dependency>
+       
         <!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
