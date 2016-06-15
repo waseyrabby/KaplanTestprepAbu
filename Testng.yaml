@@ -1,0 +1,11 @@
+name: Command line suite
+verbose: 0
+tests:
+  - name: Command line test
+    verbose: 0
+preserveOrder    : false
+    classes:
+      - com.kaplan.Test.GmailLoginTest
+      - com.kaplan.Test.ParameterizeTest
+      - com.kaplan.Test.VerifyTest
+

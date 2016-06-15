@@ -29,7 +29,7 @@ public class ParameterizeTest extends Gmailscriptbase {
 	        gmail().HP().clicknext();
 	        driver.findElement(By.name("Passwd")).sendKeys(password);
 	        gmail().HP().signin(); 
-	        String welcomeMsg = driver.findElement(By.xpath(".//*[@id='gb']/div[1]/div[1]/div[1]")).getText();
+	        String welcomeMsg = driver.findElement(By.className("gb_P gb_R")).getText();
 	        Assert.assertEquals(welcome,welcomeMsg);
 	   }
 	 

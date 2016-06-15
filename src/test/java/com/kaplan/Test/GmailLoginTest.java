@@ -4,7 +4,9 @@ import org.testng.annotations.Test;
 
 
 
+
 import com.kaplan.pomframework.Gmailscriptbase;
+import com.kaplan.pomframework.Retry;
 
 
 public class GmailLoginTest extends Gmailscriptbase{
@@ -16,11 +18,11 @@ public class GmailLoginTest extends Gmailscriptbase{
 		 gmail().HP().verifyPageTitle();
 	       
 	   }
-	 @Test
+	 @Test(retryAnalyzer =Retry.class)
 	 public void Login(){
 		 gmail().HP().printMethod();
 		 gmail().HP().navigateTo();
-		 gmail().HP().inputemail();
+	//	 gmail().HP().inputemail();
 		 gmail().HP().clicknext();
 		 gmail().HP().inputpassword();
 	     gmail().HP().signin(); 

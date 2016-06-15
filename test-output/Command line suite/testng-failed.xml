@@ -3,7 +3,18 @@
 <suite name="Failed suite [Command line suite]">
   <test name="Command line test" preserve-order="false">
     <classes>
-      <class name="com.kaplan.Test.ParameterizeTest"/>
+      <class name="com.kaplan.Test.GmailLoginTest"/>
     </classes>
   </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.kaplan.Test.GmailLoginTest">
+        <methods>
+          <include name="Login"/>
+          <include name="before"/>
+          <include name="afterMethods"/>
+        </methods>
+      </class> <!-- com.kaplan.Test.GmailLoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
